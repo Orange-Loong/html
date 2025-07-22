@@ -1,4 +1,4 @@
-# 一、概述
+## 一、概述
 
 开发者可以使用熟悉的 Web 技术，如 HTML、CSS 和 JavaScript，来扩展 Editor应用程序。
 JS Plugin最基本的形式是一些简单的网页，这些网页在 Eidor程序里显示，但它们不和PDF文件或者互联网上的其他东西交流。
@@ -7,20 +7,28 @@ JS Plugin最基本的形式是一些简单的网页，这些网页在 Eidor程�
 
 ## 二、快速开始
 
-使用如下命令，快速部署一个 Javascript Plug-in SDK for Desktop Editor 程序：
+快速部署一个 Javascript Plug-in SDK for Desktop Editor 程序：
 
-```
-// 安装http-server
-npm install -g http-server
-// 启动   -c-1 缓存时间设置（-1 禁用缓存）
-http-server -c-1
-```
+我们提供了五个示例项目：Annotation、Document、InsertText、RibbonBar、SearchText
+
+以Annotation为例：
+1.设置启动项
+
+<img width="1347" height="274" alt="image" src="https://github.com/user-attachments/assets/b9857638-4f26-4a49-a511-fbf48e47a8d3" />
+
+
+2.打开Annotation项目下manifest.json清单文件，点击运行后，将CloudStudio测试地址写入Url
+<img width="1655" height="650" alt="image" src="https://github.com/user-attachments/assets/180978d1-025e-4a38-a54a-48cc5d3ed8e2" />
+
+3.将manifest.json下载到本地后，通过福昕PDF高级编辑器安装清单文件
+<img width="1915" height="768" alt="image" src="https://github.com/user-attachments/assets/4a5c40fa-e091-4d26-af02-fb18bb3f3ab5" />
+
 
 **输出结果：**
 
 <img title="" src="img/output.png" alt="" width="261">
 
-### 三.  文件结构
+## 三、文件结构
 
 ```
 workspace/
