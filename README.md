@@ -7,6 +7,9 @@ JS Plugin最基本的形式是一些简单的网页，这些网页在 Eidor程�
 
 ## 二、快速开始
 
+### 在线文档
+http://10.103.2.86:8081/jspluginsdk/docs/zh-CN/
+
 快速部署一个 Javascript Plug-in SDK for Desktop Editor 程序：
 
 我们提供了五个示例项目：Annotation、Document、InsertText、RibbonBar、SearchText
