@@ -12,21 +12,23 @@ JS Plugin最基本的形式是一些简单的网页，这些网页在 Eidor程�
 我们提供了五个示例项目：Annotation、Document、InsertText、RibbonBar、SearchText
 
 以Annotation为例：
-1.设置启动项
+
+#### 1.设置启动项
 
 <img width="1347" height="274" alt="image" src="https://github.com/user-attachments/assets/b9857638-4f26-4a49-a511-fbf48e47a8d3" />
 
+#### 2.打开Annotation项目下manifest.json清单文件，点击运行后，将CloudStudio测试地址写入Url
 
-2.打开Annotation项目下manifest.json清单文件，点击运行后，将CloudStudio测试地址写入Url
 <img width="1655" height="650" alt="image" src="https://github.com/user-attachments/assets/180978d1-025e-4a38-a54a-48cc5d3ed8e2" />
 
-3.将manifest.json下载到本地后，通过福昕PDF高级编辑器安装清单文件
+#### 3.将manifest.json下载到本地后，通过福昕PDF高级编辑器安装清单文件
 <img width="1915" height="768" alt="image" src="https://github.com/user-attachments/assets/4a5c40fa-e091-4d26-af02-fb18bb3f3ab5" />
 
 
 **输出结果：**
 
-<img title="" src="img/output.png" alt="" width="261">
+ <img width="1919" height="514" alt="image" src="https://github.com/user-attachments/assets/4c22dfe1-a750-4d73-8a33-54684f2838df" />
+
 
 ## 三、文件结构
 
@@ -49,4 +51,5 @@ workspace/
 
 - 福昕工程师实时群内答疑
 
-<img title="" src="img/qr-code.png" alt="qr-code.png" width="270">
+![0f05355bbe6d8e3fcbac43eb0580075](https://github.com/user-attachments/assets/e1446086-5ba5-4014-ba51-2ed107ed1078)
+
